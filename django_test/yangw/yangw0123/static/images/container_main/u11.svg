@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="51px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="70" y1="151" x2="70" y2="192" id="LinearGradient2">
+      <stop id="Stop3" stop-color="#ffffff" offset="0" />
+      <stop id="Stop4" stop-color="#f2f2f2" offset="0" />
+      <stop id="Stop5" stop-color="#e4e4e4" offset="1" />
+      <stop id="Stop6" stop-color="#ffffff" offset="1" />
+    </linearGradient>
+    <filter x="51px" y="151px" width="48px" height="51px" filterUnits="userSpaceOnUse" id="filter7">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.34901960784313724 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget8">
+      <path d="M 88.5 158.6  C 88.5 158.6  88.5 184.4  88.5 184.4  C 88.5 188.54399999999998  79.94 191.5  70 191.5  C 60.06 191.5  51.5 188.54399999999998  51.5 184.4  C 51.5 184.4  51.5 158.6  51.5 158.6  C 51.5 154.456  60.06 151.5  70 151.5  C 79.94 151.5  88.5 154.456  88.5 158.6  Z " fill-rule="nonzero" fill="url(#LinearGradient2)" stroke="none" />
+      <path d="M 51.5 158.91463414634146  C 51.5 154.76243902439023  59.64 151.5  70 151.5  C 80.36 151.5  88.5 154.76243902439023  88.5 158.91463414634146  C 88.5 158.91463414634146  88.5 184.08536585365854  88.5 184.08536585365854  C 88.5 188.23756097560977  80.36 191.5  70 191.5  C 59.64 191.5  51.5 188.23756097560977  51.5 184.08536585365854  C 51.5 184.08536585365854  51.5 158.91463414634146  51.5 158.91463414634146  Z " stroke-width="1" stroke="#797979" fill="none" />
+      <path d="M 88.5 158.6  C 88.5 162.576  80.36 165.7  70 165.7  C 59.64 165.7  51.5 162.576  51.5 158.6  " stroke-width="1" stroke="#797979" fill="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -51 -151 )">
+    <use xlink:href="#widget8" filter="url(#filter7)" />
+    <use xlink:href="#widget8" />
+  </g>
+</svg>
